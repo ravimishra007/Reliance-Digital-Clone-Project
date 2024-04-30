@@ -1,0 +1,44 @@
+
+      /* azad card stylying */
+      .cards-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .card{
+        border: none;
+        cursor: pointer;
+      }
+
+      .card-image{
+        height: 100%;
+        width: 200px;
+        margin: 0 20px 10px 0px;
+        padding: 0;
+        transition: transform 0.5s ease-in-out;
+      }
+
+      .card-image:hover {
+          transform: scale(1.1);
+      }
+
+      .card-body{
+        padding-top: 0;
+      }
+
+      .checked {
+        color: orange;
+      }
+
+      .card-offerButton{
+        padding: 10px;
+      }
+
+      .card-body-title{
+        color: rgb(56, 22, 159);
+      }
+
+      .card-body-title:hover{
+        color: rgb(216, 2, 2);
+      }

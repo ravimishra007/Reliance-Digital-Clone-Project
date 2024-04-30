@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .GD {
+    width: 100%;
+    height: 600px;
+    padding: 0;
+    padding-top: 15px;
+    background-color: #003380;
+  }
+  
+  #maintb {
+    width: 100%;
+    height: 350px;
+    
+  }
+  
+  #bod {
+    width: 100%;
+    height: auto;
+    color: #fff;
+    font-family: "Gill Sans MT";
+    font-family: "Kanit", sans-serif;
+    font-family: "Poppins", sans-serif;
+    
+  }
+
+  #bod>:nth-child(1){
+    padding: 0 50px 0 50px;
+  }
+
+    th a,
+    td a {
+        cursor: pointer;
+        color: black;
+        transition: color 0.5s;
+    }
+
+    th a:hover,
+    td a:hover {
+        color: yellow;
+    }
+  
+  tbody{
+    margin: 0;
+    padding: 0;
+    margin-left: 50px;
+    padding-left: 50px;
+
+  }
+  
+  .socialicongd {
+    margin-top: 20px;
+  }
+  
+  .hgdk {
+    font-family: "Kanit", sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+  }
+  
+  .iconsgd {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+  
+  #imggd7 {
+    width: 150px;
+    height: 45px;
+  }
+  
+  .gdpart2 {
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-family: "Gill Sans MT";
+    background-color: #0a244a;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }/*# sourceMappingURL=style.css.map */

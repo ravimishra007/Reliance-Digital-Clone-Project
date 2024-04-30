@@ -1,0 +1,48 @@
+.sub-con{
+    width:23vw;
+    max-width:380px;
+    min-height:250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cos-img{
+    width:200px;
+    height:200px;
+    transition: width 0.5s ,height 0.5s ;
+}
+.cos-img:hover{
+    width:230px;
+    height:230px;
+}
+.cos-rol{        
+    width:300px;
+    height:300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;         
+}
+.cos-p-fl{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px;
+}
+
+.img-con{
+    width:100%;
+    height:100%;
+    transition:0.5s ease-in-out;
+}
+.img-con:hover{
+    transform: scale(1.1);         
+    cursor: pointer;
+}
+.brand{
+  width:23vw;
+  height:100px;
+  cursor: pointer;
+ }
+.name{
+    font-family: 'DM Serif Display', serif;
+}
